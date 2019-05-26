@@ -1,0 +1,45 @@
+{
+  "id": "d56ab614-1933-45e9-a22d-d5d3de30d8e9",
+  "name": "welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "197eb682-7633-48d6-baa2-86fd58a9bb05",
+          "required": false,
+          "dataType": "@sys.person",
+          "name": "person",
+          "value": "$person.original",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hello $person , We provide service to book movies. Please let us know your location.",
+            "Hello Sir\\Madam, We provide service to book movies. Please let us know your location.",
+            "Hello , We provide service to book movies. Please let us know your location."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

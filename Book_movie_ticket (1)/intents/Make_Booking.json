@@ -1,0 +1,78 @@
+{
+  "id": "03e8684b-4276-4d5b-9e63-66f90429bf2e",
+  "name": "Make_Booking",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e59cc4c2-0cb9-4798-bae6-f268373096cb",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please confirm $date"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "83fdfa4e-153b-4cb0-8427-6ca458601cf2",
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please specify the time"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "3bad5ef4-9246-49b8-b74d-aa5e5e942fe1",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please specify the number of tickets to be booked"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "1b01c320-f9ab-4435-b1a3-ffa85908ab18",
+          "required": false,
+          "dataType": "@Day",
+          "name": "Day",
+          "value": "$Day",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "please confirm the booking on  $date and $time"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

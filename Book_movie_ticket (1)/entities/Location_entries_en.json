@@ -1,0 +1,52 @@
+[
+  {
+    "value": "Hyderabad",
+    "synonyms": [
+      "Hyderabad",
+      "Bangalore",
+      "chennai",
+      "kerala",
+      "mumbai",
+      "delhi"
+    ]
+  },
+  {
+    "value": "Bangalore",
+    "synonyms": [
+      "Bangalore",
+      "Benguluru",
+      "blg"
+    ]
+  },
+  {
+    "value": "Chennai",
+    "synonyms": [
+      "Chennai",
+      "chen",
+      "chenai"
+    ]
+  },
+  {
+    "value": "kerala",
+    "synonyms": [
+      "kerala",
+      "ker"
+    ]
+  },
+  {
+    "value": "mumbai",
+    "synonyms": [
+      "mumbai",
+      "bombay",
+      "amchi mumbai"
+    ]
+  },
+  {
+    "value": "delhi",
+    "synonyms": [
+      "delhi",
+      "noida",
+      "south delhi"
+    ]
+  }
+]

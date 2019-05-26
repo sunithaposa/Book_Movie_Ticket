@@ -1,0 +1,47 @@
+{
+  "id": "6309ae88-900a-474d-bd9a-6bde1ee0ca8b",
+  "name": "Location",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3b1103f8-d0cc-45bf-a660-eb0fe9aac48c",
+          "required": false,
+          "dataType": "@Location",
+          "name": "Location",
+          "value": "$Location",
+          "isList": false
+        },
+        {
+          "id": "e78a707b-a5a0-448a-9d55-4b8e617451be",
+          "required": false,
+          "dataType": "@Movie_name",
+          "name": "Movie_name",
+          "value": "$Movie_name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Thank you Sir\\Madam for specifying the location as $location . Please let us know the language of movie.",
+            "Thank you Sir\\Madam for specifying the location as $location . Please let us know the language of movie you would like to watch"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

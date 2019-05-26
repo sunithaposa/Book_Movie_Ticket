@@ -1,0 +1,31 @@
+{
+  "id": "cc07e753-5c98-4082-84aa-57be46665153",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hello $name ,  The data entered is not matching any of our databases. Please enter a valid response.",
+            "Hello Sir/Madam ,  The data entered is not matching any of our databases. Please enter a valid response."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

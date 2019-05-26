@@ -1,0 +1,9 @@
+{
+  "id": "593b3865-88d0-4516-b3ff-23d8eaa247f2",
+  "name": "Location",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

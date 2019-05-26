@@ -1,0 +1,61 @@
+{
+  "id": "791f59d7-b25c-4db5-9b4d-a2bc13e7f3b2",
+  "name": "Day_book",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "affectedContexts": [
+        {
+          "name": "day",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "today",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "tommorrow",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "11",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "sunday",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Day",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "thank you $name for choosing the day, the selected day and time  is $Day $time .Please confirm to start the booking",
+            "thank you for choosing the day, the selected day and time  is $Day $time. Please confirm to start the booking"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

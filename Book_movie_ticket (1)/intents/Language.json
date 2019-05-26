@@ -1,0 +1,53 @@
+{
+  "id": "c22d6407-3b46-439f-a1d8-10dbbe4dc7cb",
+  "name": "Language",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3915cad7-5806-4723-9d1c-7b8cdf4b7959",
+          "required": true,
+          "dataType": "@Language",
+          "name": "Language",
+          "value": "$Language",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please select a languge amoung the below list: English, Hindi, Telugu, Kannada,Malyalam, Tamil"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "22b32ccc-d26d-4be1-83ed-a877657028b1",
+          "required": false,
+          "dataType": "@Movie_name",
+          "name": "Movie_name",
+          "value": "$Movie_name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Thank you Sir/Madam for selecting the language of movie as $Language . Please let us know the date of booking.",
+            "Thank you Sir/Madam for selecting the language of movie as $Language.Please let us know the date of booking."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

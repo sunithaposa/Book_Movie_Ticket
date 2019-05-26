@@ -1,0 +1,34 @@
+[
+  {
+    "value": "English",
+    "synonyms": [
+      "English"
+    ]
+  },
+  {
+    "value": "Hindi",
+    "synonyms": [
+      "Hindi"
+    ]
+  },
+  {
+    "value": "Telugu",
+    "synonyms": [
+      "Telugu"
+    ]
+  },
+  {
+    "value": "Kannada",
+    "synonyms": [
+      "Kannada",
+      "kannad"
+    ]
+  },
+  {
+    "value": "Malyalam",
+    "synonyms": [
+      "Malyalam",
+      "Malyalamu"
+    ]
+  }
+]

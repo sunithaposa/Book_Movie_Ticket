@@ -1,0 +1,63 @@
+[
+  {
+    "value": "@sys.date",
+    "synonyms": [
+      "@sys.date",
+      "today"
+    ]
+  },
+  {
+    "value": "Tommorrow",
+    "synonyms": [
+      "Tommorrow"
+    ]
+  },
+  {
+    "value": "day after tommorrw",
+    "synonyms": [
+      "day after tommorrw"
+    ]
+  },
+  {
+    "value": "Monday",
+    "synonyms": [
+      "Monday"
+    ]
+  },
+  {
+    "value": "Tuesday",
+    "synonyms": [
+      "Tuesday"
+    ]
+  },
+  {
+    "value": "Wednesday",
+    "synonyms": [
+      "Wednesday"
+    ]
+  },
+  {
+    "value": "thursday",
+    "synonyms": [
+      "thursday"
+    ]
+  },
+  {
+    "value": "friday",
+    "synonyms": [
+      "friday"
+    ]
+  },
+  {
+    "value": "saturnday",
+    "synonyms": [
+      "saturnday"
+    ]
+  },
+  {
+    "value": "sunday",
+    "synonyms": [
+      "sunday"
+    ]
+  }
+]

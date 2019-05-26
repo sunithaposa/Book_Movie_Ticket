@@ -1,0 +1,40 @@
+[
+  {
+    "id": "6f6adad1-c7fc-4e6d-9359-209447680957",
+    "data": [
+      {
+        "text": "what is ",
+        "userDefined": false
+      },
+      {
+        "text": "Movie",
+        "alias": "Movie_name",
+        "meta": "@Movie_name",
+        "userDefined": true
+      },
+      {
+        "text": " name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "df7a01ab-92a9-41a8-aca2-b06256876ece",
+    "data": [
+      {
+        "text": "movie",
+        "alias": "Movie_name",
+        "meta": "@Movie_name",
+        "userDefined": true
+      },
+      {
+        "text": " name ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]
